@@ -15,7 +15,9 @@ header,
 #intro-section {
     height: 100%;
     /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Bodoni Moda', serif; */
     font-family: 'Bodoni Moda', serif;
+
 }
 
 @media (max-width: 740px) {
@@ -471,4 +473,6 @@ margin: 0 auto;
       flex-direction: row-reverse;
      }
 
-  
+  .firstproject a {
+
+  }
