@@ -8,7 +8,7 @@
 
 #about {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: -2rem;
 }
 .links {
     color: rgb(232, 158, 140) !important;
@@ -186,6 +186,7 @@ header,
     background-repeat: no-repeat;
     transition: background 0.2s ease-out;
     white-space: nowrap;
+
 }
 
 span {
@@ -322,6 +323,9 @@ p:hover {
           justify-content: space-around;
           align-items: flex-start;
           align-content: flex-start;
+          margin: 4rem 7rem;
+          border-top: 10px solid rgb(232, 158, 140);
+          border-left: 10px solid rgb(232, 158, 140);
 
         }
 
@@ -350,10 +354,11 @@ p:hover {
 
         .firstproject-p h3, h4{
      color: rgb(232, 158, 140);
+     margin-top: 1rem;
         }
 
         .firstproject p {
-          background-color: rgb(232, 158, 140, 0.7);
+          background-color: rgb(232, 158, 140);
           padding: 23px;
           border-radius: 5px;
           color: white;
@@ -361,6 +366,9 @@ p:hover {
 
      #secondproject {
       flex-direction: row-reverse;
+      border-top: 10px solid rgb(232, 158, 140);
+      border-right: 10px solid rgb(232, 158, 140);;
+      border-left: none;
      }
 
 
