@@ -35,7 +35,26 @@
     opacity: 0; 
   }
 }
+span {
+  position: relative;
+}
+.red-bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 18px;
+  background: rgb(229, 62, 55);
+  bottom: 27px;
+  transition: all 0.2s ease-out;
+}
+p:hover {
+  background-position: 0 11px;
+}
 
+.red-bar:hover:before {
+  transform: translateY(10px)
+}
 #about {
   width: 100%;
   margin-bottom: -2rem;
@@ -189,26 +208,7 @@ header,
 
 }
 
-span {
-  position: relative;
-}
-.red-bar:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 18px;
-  background: rgb(229, 62, 55);
-  bottom: 27px;
-  transition: all 0.2s ease-out;
-}
-p:hover {
-  background-position: 0 11px;
-}
 
-.red-bar:hover:before {
-  transform: translateY(10px)
-}
 
 .tech-skills {
   display: flex;
